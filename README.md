@@ -60,13 +60,11 @@
    ```bash
    dig @a.root-servers.net www.cs.stonybrook.edu
    ```
-   <img width="626" alt="Screenshot 2025-02-13 at 9 15 29 PM" src="https://github.com/user-attachments/assets/614abf6b-6194-41a2-9eb6-49fd26aa0992" />
 
 2. **Query a TLD Server:**
    ```bash
    dig @b.edu-servers.net www.cs.stonybrook.edu
    ```
-   <img width="602" alt="Screenshot 2025-02-13 at 9 15 58 PM" src="https://github.com/user-attachments/assets/5c3c53c4-7371-4fc5-81b3-7b83cdbb6a79" />
 
    **Authority Section Response:**
    - `nocnoc.stonybrook.edu`
@@ -77,7 +75,6 @@
    ```bash
    dig @nocnoc.stonybrook.edu www.cs.stonybrook.edu
    ```
-   <img width="629" alt="Screenshot 2025-02-13 at 9 16 24 PM" src="https://github.com/user-attachments/assets/2c26ad89-bbbc-473e-bc6a-756abf20c4cd" />
 
    **Response:** `www.cs.stonybrook.edu` is a CNAME for `live-compscid9sbu.pantheonsite.io`.
 
@@ -85,6 +82,6 @@
    ```bash
    dig live-compscid9sbu.pantheonsite.io
    ```
-   <img width="553" alt="Screenshot 2025-02-13 at 9 16 56 PM" src="https://github.com/user-attachments/assets/1c4a1e7c-3aeb-4809-9cf2-4b741dbc65bf" /><br>
+   
    **Result:** The final IP address is `23.185.0.4`.
 
